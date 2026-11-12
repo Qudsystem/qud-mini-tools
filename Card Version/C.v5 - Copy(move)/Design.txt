@@ -1,0 +1,132 @@
+!DOCTYPE html>
+ 
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+
+    <link rel="stylesheet" href="style.css" />
+
+
+ <link
+      href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+
+
+  <div class="profile-card">
+      <div class="image">
+
+
+1 .  EST Photo
+
+
+ <img src="imge/profile.jpg" alt="" class="est-img">      </div>
+
+
+
+
+2  est light  txt
+
+
+        <span class="light">إدارة ونظم معلومات المصرية للعلوم والتكنولوچيا بالمنيا</span>
+
+
+
+
+ 
+
+
+3  hossam Photo
+
+<img src="imge/profile.jpg" alt="" class="hossam-img">      </div>
+
+
+
+4  year bold
+
+        <span class="year">2022-2023</span>
+   
+
+  <div class="text-data">
+
+
+4  h3  txt  name + Bold +
+
+
+        <span class="name">حسام محمد جلال احمد</span>
+
+
+5  h3 or h4 text  bold   ID
+
+
+
+        <span class="ID">MI-19047</span>
+
+
+6   h4 or h5 light txt  (level)
+
+
+
+        <span class="light">نظم معلومات , فرقة رابعة , سكشن 2</span>
+
+
+
+
+      </div>
+
+
+
+7 Qr   :
+
+
+<img src="imge/profile.jpg" alt="" class="qr-img">      </div>
+
+
+
+
++++++
+=====   color & (3) Parts
++++++
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+8  Date Number bold txt   + Bold +
+
+           
+
+        <span class="Date">2022-11-02</span>
+
+
+9 Dinamic O'clock  bold txt
+
+
+        <span class="clock">11:27:20</span>
+
+

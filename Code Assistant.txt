@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code Assistant</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f5f5f5;
+        }
+
+        .container {
+            text-align: center;
+        }
+
+        textarea {
+            width: 80%;
+            height: 100px;
+            margin: 10px 0;
+            padding: 10px;
+            font-size: 16px;
+        }
+
+        button {
+            padding: 10px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        #codeResponse {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Code Assistant</h1>
+        <textarea id="codeInput" placeholder="Enter your coding question"></textarea>
+        <button onclick="getCodeResponse()">Get Code Response</button>
+        <div id="codeResponse"></div>
+    </div>
+
+    <script>
+        async function getCodeResponse() {
+            const codeInput = document.getElementById('codeInput').value;
+            const codeResponseElement = document.getElementById('codeResponse');
+
+            // Replace 'YOUR_OPENAI_API_KEY' with your actual OpenAI API key
+            const apiKey = 'YOUR_OPENAI_API_KEY';
+
+            const response = await fetch('/get_code_response', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                    'Authorization': `Bearer ${apiKey}`
+                },
+                body: JSON.stringify({ prompt: codeInput })
+            });
+
+            const responseData = await response.json();
+            codeResponseElement.innerHTML = `<p>${responseData.response}</p>`;
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,183 @@
+/* Google Fonts - Poppins */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+* {
+  max-width: 520px;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  color: rgb(255, 248, 248);
+  /* align-items: center;
+  text-align: center;
+  position: center; */
+  align-items: center;
+
+}
+
+
+
+.est-img {
+
+  float: right;
+  height: 70px;
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -o-border-radius: 50%;
+  /* border-radius: 33px; */
+  /* border-radius: 0px; */
+  /* padding: 1px; */
+
+}
+
+.est-text {}
+
+.l1 {
+  border-radius: 40px 40px 6px 6px;
+  width: 541px;
+  background-color: #0050ff;
+  padding: 28px;
+
+}
+
+.l2 {
+  border-radius: 6px 6px 40px 40px;
+  width: 711px;
+  background-color: #0050ff;
+  padding: 38px;
+
+
+}
+
+
+
+body {
+  background-color: rgb(24 25 26);
+}
+
+
+
+
+span {
+  padding: 1px;
+}
+
+
+
+
+.card {
+  background: #003aee;
+  padding: .5px;
+  width: 900px;
+  border-radius: 43px;
+  /* align-items: center;
+  text-align: center;
+  position: center; */
+
+}
+
+.profile-card {
+  text-align: center;
+  /* position: center; */
+  /* align-items: center; */
+
+}
+
+
+
+.txt1 {
+  
+  background: #515e83;
+  
+}
+
+
+
+.txt2 {
+  
+  background: #303030;
+  
+  
+}
+
+
+
+
+.hos-img {
+  padding: 15px;
+   float: right;
+  border-radius: 10%;
+  -moz-border-radius: 10%;
+  -webkit-border-radius: 10%;
+  -o-border-radius: 10%;
+}
+
+.name {
+  
+  font-size: 38px;
+  padding: 15px;
+  
+}
+.ID {
+  font-size: 23px;
+  text-align: right;
+  
+}
+.level {
+  font-size: 21px;
+  align-items: right;
+  text-align: right;
+  position: relative;
+   padding-left: 31px;
+ 
+}
+
+.year {
+  color: rgb(255, 255, 255);
+  padding-left: 285px;
+}
+
+
+
+.clock {
+  font-size: 30px;
+}
+
+.Date {
+  
+  font-size: 30px;
+}
+
+
+
+
+
+
+
+
+
+.qr-img {
+  
+  padding: 2px;
+  height: 50px;
+  border-radius: 20%;
+  width: 100;
+  height: 160px;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+
+}
+
+img {
+  max-width: 100%
+}
+
+/* .container {
+  display: flex;
+  align-items: left;
+  justify-content: left;
+} */
+ 
