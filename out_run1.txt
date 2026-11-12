@@ -1,0 +1,10 @@
+[zero] params=37.69M  approx_size=21.18 MB
+step     0  loss 10.7756  elapsed 3.0s
+step    20  loss 10.3441  elapsed 34.6s
+step    40  loss 10.1282  elapsed 130.8s
+step    60  loss 10.0910  elapsed 225.9s
+step    80  loss 10.0099  elapsed 285.7s
+step   100  loss 9.9923  elapsed 334.2s
+step   120  loss 9.9285  elapsed 389.6s
+step   140  loss 9.9452  elapsed 447.3s
+[zero] saved out_run1\zero.pt

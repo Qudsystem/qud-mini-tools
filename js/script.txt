@@ -1,0 +1,12 @@
+const form = document.querySelector('form');
+
+form.addEventListener('submit', (e) => {
+  e.preventDefault();
+  const email = form.querySelector('input[type="email"]').value;
+  if (email) {
+    alert(`Thanks for signing up! We'll notify you at ${email}.`);
+    form.reset();
+  } else {
+    alert('Please enter a valid email address.');
+  }
+});

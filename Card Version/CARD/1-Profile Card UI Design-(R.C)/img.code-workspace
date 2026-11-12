@@ -1,0 +1,17 @@
+{
+  "folders": [
+	{
+		"path": "..\\..\\c\\img"
+	},
+	{
+		"path": "..\\..\\c\\.vscode"
+	},
+	{
+		"path": "..\\..\\c\\fonts"
+	}
+],
+  "settings": {
+    "editor.tabCompletion": "on",
+    "diffEditor.codeLens": true
+  }
+}

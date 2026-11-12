@@ -1,0 +1,11 @@
+{
+  "create_selectors": [
+    "//div[@role='textbox' and @contenteditable='true']",
+    "//textarea[@aria-label]",
+    "//div[contains(text(), \"What's on your mind\")]"
+  ],
+  "dismiss_selectors": [
+    "//button[contains(., 'Accept') or contains(., 'Agree')]",
+    "//button[contains(., 'Not Now') or contains(., 'Reject')]"
+  ]
+}

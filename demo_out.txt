@@ -1,0 +1,14 @@
+tiny model: 78144 params
+step   0  loss 4.2100
+step  20  loss 2.2864
+step  40  loss 1.6807
+step  60  loss 1.5269
+step  80  loss 1.5121
+step 100  loss 1.4929
+step 120  loss 1.4855
+step 140  loss 1.4909
+step 160  loss 1.4655
+step 180  loss 1.4460
+prompt    : [1, 2, 3, 4]
+generated : [1, 2, 3, 4, 4, 5, 6, 6, 6, 7, 7, 8, 7, 8, 8, 9]
+target    : [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16]

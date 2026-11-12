@@ -1,0 +1,4 @@
+model: 1.341M params, hidden=192, layers=4, vocab=65
+step     0  train 4.6544  val 4.1750  lr 5.00e-03  t=10s
+step    50  train 3.0585  val 3.0632  lr 5.00e-03  t=232s
+step   100  train 3.0730  val 3.0750  lr 4.99e-03  t=529s
