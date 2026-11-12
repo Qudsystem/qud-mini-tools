@@ -1,0 +1,27 @@
+model: 2.378M params, ~0.45 MB (ternary)
+vocab_size=65, hidden=256, layers=4
+step     0  train 5.3925  val 4.8953  t=15s
+step    25  train 3.0532  val 3.1024  t=114s
+step    50  train 3.1242  val 3.0336  t=215s
+step    75  train 3.0752  val 3.0491  t=350s
+step   100  train 3.0695  val 3.0960  t=585s
+step   125  train 3.0460  val 3.0764  t=693s
+step   150  train 3.0991  val 3.0632  t=754s
+step   175  train 3.0994  val 3.0526  t=838s
+step   200  train 3.0458  val 3.0647  t=915s
+step   225  train 3.0470  val 2.9923  t=970s
+step   250  train 3.0673  val 3.0794  t=1031s
+step   275  train 3.0548  val 3.0950  t=1086s
+step   300  train 3.0537  val 3.1125  t=1152s
+step   325  train 3.0494  val 3.0671  t=1252s
+step   350  train 3.0824  val 3.0531  t=1352s
+step   375  train 3.0087  val 3.0032  t=1501s
+step   400  train 2.9187  val 2.9204  t=1676s
+step   425  train 2.9188  val 2.8835  t=2219s
+step   450  train 2.9270  val 2.9393  t=2397s
+step   475  train 2.8911  val 2.8679  t=2503s
+step   500  train 2.8492  val 2.8754  t=2611s
+step   525  train 2.7782  val 2.8465  t=2698s
+step   550  train 2.7765  val 2.8524  t=2785s
+step   575  train 2.7762  val 2.8248  t=2899s
+step   600  train 2.7567  val 2.7330  t=3191s

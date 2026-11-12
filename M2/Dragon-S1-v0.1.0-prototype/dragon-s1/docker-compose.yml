@@ -1,0 +1,43 @@
+services:
+  postgres:
+    image: postgres:16
+    container_name: dragon-s1-db
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: dragon_s1
+      POSTGRES_USER: dragon_admin
+      POSTGRES_PASSWORD: ${DB_PASSWORD:-DragonS1_Secure_2026}
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U dragon_admin -d dragon_s1"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  backend:
+    build: .
+    restart: unless-stopped
+    environment:
+      - DRAGON_DATABASE_URL=postgresql://dragon_admin:DragonS1_Secure_2026@postgres:5432/dragon_s1
+    depends_on:
+      postgres:
+        condition: service_healthy
+    deploy:
+      replicas: 2
+
+  nginx:
+    image: nginx:latest
+    container_name: dragon-s1-nginx
+    restart: unless-stopped
+    ports:
+      - "8000:80"
+    volumes:
+      - ./nginx.conf:/etc/nginx/nginx.conf:ro
+    depends_on:
+      - backend
+
+volumes:
+  pgdata:

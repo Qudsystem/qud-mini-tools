@@ -1,0 +1,25 @@
+Dragon S1 v0.1.0 Prototype — Validation Report
+Date: 2026-06-24
+
+Automated checks performed:
+- Python syntax compilation: PASSED
+- Dashboard JavaScript syntax check: PASSED
+- FastAPI API smoke test: PASSED
+- Live HTTP server startup and health endpoint: PASSED
+- Device enrollment over HTTP: PASSED
+- Multipart image request submission: PASSED
+- Admin login and request listing: PASSED
+- Approve decision workflow: PASSED
+- Demo face similarity result with bundled assets: 99.08% (workflow-only demo engine)
+
+Pytest output:
+.                                                                        [100%]
+1 passed in 3.40s
+
+Not executed in this Linux validation environment:
+- Physical Windows USB insertion through WMI
+- Windows Registry USBSTOR enable/disable operation
+- PyQt5 desktop window on a Windows user session
+- DeepFace model download/inference
+
+These Windows-specific functions are implemented and documented, but must be acceptance-tested on the target Windows lab machines before production use.
