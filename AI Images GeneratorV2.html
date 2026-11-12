@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AI Images Generator</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            font-family: sans-serif;
+        }
+        body {
+            background-color: #1d2023;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-around;
+            height: 100vh;
+        }
+        h2 {
+            color: #fff;
+            font-size: 40px;
+        }
+        .prompt {
+            background-color: #292c31;
+            padding: 5px;
+            width: 620px;
+            border: 3px solid #36383d;
+        }
+        input,
+        button {
+            padding: 10px;
+            border: none;
+            font-size: 20px;
+            color: #fff;
+        }
+        input {
+            background-color: #292c31;
+            width: 75%;
+            outline: none;
+        }
+        button {
+            background-color: #36383d;
+            width: 20%;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #1d2023;
+            border: 2px solid #36383d;
+            border-radius: 20px;
+        }
+        input:hover {
+            border-radius: 20px;
+            background-color: #1d2023;
+            border: 1px solid #36383d;
+        }
+        .images {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 10px;
+        }
+        .images div {
+            height: 200px;
+            width: 200px;
+            background-color: #292c31;
+            border-radius: 10px;
+            border: 3px solid #36383d;
+        }
+    </style>
+</head>
+<body>
+    <!-- title of the project -->
+    <h2>AI Images Generator</h2>
+    <!-- results - images -->
+    <div class="images"></div>
+    <!-- input or prompt -->
+    <div class="prompt">
+        <input id="inp" type="text">
+        <button onclick="getImages()">Generate</button>
+    </div>
+    <script>
+        const api = "REDACTED_BY_QUDSYSTEM_SECRET_GUARD";
+        const inp = document.getElementById("inp");
+        const imagesContainer = document.querySelector(".images");
+
+        async function getImages() {
+            const methods = {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json",
+                    Authorization: `Bearer ${api}`
+                },
+                body: JSON.stringify({
+                    "prompt": inp.value,
+                    "n": 3,
+                    "size": "256*256"
+                })
+            };
+            try {
+                const res = await fetch("https://api.openai.com/v1/images/generations", methods);
+                if (!res.ok) {
+                    throw new Error('Error occurred while fetching images');
+                }
+                const data = await res.json();
+                const listImages = data.data;
+                listImages.forEach(photo => {
+                    const container = document.createElement("div");
+                    imagesContainer.appendChild(container);
+                    const img = document.createElement("img");
+                    container.appendChild(img);
+                    img.src = photo.url;
+                });
+            } catch (error) {
+                console.error(error);
+                // Handle error gracefully, e.g. show an error message to the user
+            }
+        };
+    </script>
+</body>
+</html>

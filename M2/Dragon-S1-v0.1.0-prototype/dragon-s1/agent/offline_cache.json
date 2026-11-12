@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "payload": "{\"device_uid\": \"mybro-cd3cf6e6f93a\", \"employee_name\": \"hossamgalal\", \"reason\": \"to copy imprtant files\", \"usb_description\": \"Demo USB flash drive\"}",
+    "face_path": "C:\\Users\\Hossam Galal\\Desktop\\Mubarak\\M2\\Dragon-S1-v0.1.0-prototype\\dragon-s1\\agent\\captures\\face-20260628-213603.jpg",
+    "id_path": "C:\\Users\\Hossam Galal\\Documents\\1775325240013.jpg",
+    "created_at": "2026-06-28T18:38:09.621420",
+    "synced": 0
+  },
+  {
+    "id": 2,
+    "payload": "{\"device_uid\": \"mybro-cd3cf6e6f93a\", \"employee_name\": \"HOS\", \"reason\": \"KJHK\", \"usb_description\": \"Demo USB flash drive\"}",
+    "face_path": "C:\\Users\\Hossam Galal\\Desktop\\Mubarak\\M2\\Dragon-S1-v0.1.0-prototype\\dragon-s1\\agent\\captures\\face-1782679924.jpg",
+    "id_path": "C:\\Users\\Hossam Galal\\Desktop\\Mubarak\\M2\\Dragon-S1-v0.1.0-prototype\\dragon-s1\\agent\\captures\\id-1782679913.jpg",
+    "created_at": "2026-06-28T20:52:16.864395",
+    "synced": 0
+  },
+  {
+    "id": 3,
+    "payload": "{\"device_uid\": \"mybro-cd3cf6e6f93a\", \"employee_name\": \"JH\", \"reason\": \"KJJ\", \"usb_description\": \"Demo USB flash drive\"}",
+    "face_path": "C:\\Users\\Hossam Galal\\Desktop\\Mubarak\\M2\\Dragon-S1-v0.1.0-prototype\\dragon-s1\\agent\\captures\\face-1782680906.jpg",
+    "id_path": "C:\\Users\\Hossam Galal\\Desktop\\Mubarak\\M2\\Dragon-S1-v0.1.0-prototype\\dragon-s1\\agent\\captures\\id-1782680899.jpg",
+    "created_at": "2026-06-28T21:08:30.163774",
+    "synced": 0
+  },
+  {
+    "id": 4,
+    "payload": "{\"device_uid\": \"mybro-cd3cf6e6f93a\", \"employee_name\": \"HJ\", \"reason\": \"BN\", \"usb_description\": \"Demo USB flash drive\"}",
+    "face_path": "C:\\Users\\Hossam Galal\\Desktop\\Mubarak\\M2\\Dragon-S1-v0.1.0-prototype\\dragon-s1\\agent\\captures\\face-1782680936.jpg",
+    "id_path": "C:\\Users\\Hossam Galal\\Desktop\\Mubarak\\M2\\Dragon-S1-v0.1.0-prototype\\dragon-s1\\agent\\captures\\id-1782680928.jpg",
+    "created_at": "2026-06-28T21:08:59.892945",
+    "synced": 0
+  },
+  {
+    "id": 5,
+    "payload": "{\"device_uid\": \"mybro-cd3cf6e6f93a\", \"employee_name\": \"ghfh\", \"reason\": \"fghgf\", \"usb_description\": \"Demo USB flash drive\"}",
+    "face_path": "C:\\Users\\Hossam Galal\\Desktop\\Mubarak\\M2\\Dragon-S1-v0.1.0-prototype\\dragon-s1\\agent\\captures\\face-1782722176.jpg",
+    "id_path": "C:\\Users\\Hossam Galal\\Desktop\\Mubarak\\M2\\Dragon-S1-v0.1.0-prototype\\dragon-s1\\agent\\captures\\id-1782722175.jpg",
+    "created_at": "2026-06-29T08:36:22.502267",
+    "synced": 0
+  }
+]
