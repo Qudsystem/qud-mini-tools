@@ -1,0 +1,7 @@
+{"meta": "start", "ts": 1790815098379, "fps": 20, "threshold": 40, "scale": 4, "screenW": 1920, "screenH": 1080, "engine": "python-mss-numpy"}
+{"ts":1790815099135,"frame":14,"changed":23,"pct":0.018,"x":944,"y":76,"w":976,"h":952,"latency_ms":41.75}
+{"ts":1790815100350,"frame":38,"changed":96,"pct":0.074,"x":836,"y":124,"w":252,"h":436,"latency_ms":38.31}
+{"ts":1790815100399,"frame":39,"changed":125,"pct":0.096,"x":832,"y":120,"w":260,"h":432,"latency_ms":36.75}
+{"ts":1790815100470,"frame":40,"changed":54,"pct":0.042,"x":832,"y":120,"w":168,"h":428,"latency_ms":57.51}
+{"ts":1790815100524,"frame":41,"changed":31,"pct":0.024,"x":920,"y":128,"w":80,"h":416,"latency_ms":53.89}
+{"meta": "end", "ts": 1790815110335, "frames": 232, "events": 5}
