@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Coming Soon</title>
+  <link rel="stylesheet" href="sass/main.sass">
+</head>
+<body>
+  <div class="container">
+    <h1>Coming Soon</h1>
+    <p>We're working hard to bring you something awesome. Stay tuned!</p>
+    <form>
+      <input type="email" placeholder="Enter your email">
+      <button type="submit">Notify me</button>
+    </form>
+  </div>
+  <script src="js/script.js"></script>
+</body>
+</html>

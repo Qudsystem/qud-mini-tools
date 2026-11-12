@@ -1,0 +1,23 @@
+{
+  "projectName": "farh",
+  "projectDir": "C:\\Users\\Hossam Galal\\Desktop\\farh",
+  "createdAt": "2026-09-25T00:24:31.402Z",
+  "updatedAt": "2026-09-26T17:39:09.813Z",
+  "overview": "مشروع farh قيد التطوير والمتابعة عبر Cuckoo Code",
+  "architectureNotes": [],
+  "conventions": [],
+  "sessions": [
+    {
+      "sessionId": "02521d14-9ce5-42a8-ab48-1d9b50eefd93",
+      "title": "Session 02521d14",
+      "createdAt": "2026-09-25T00:24:33.882Z",
+      "summary": "",
+      "status": "active",
+      "type": "cuckoo",
+      "messageCount": 0,
+      "tokenUsage": 0,
+      "keyDecisions": [],
+      "modifiedFiles": []
+    }
+  ]
+}
